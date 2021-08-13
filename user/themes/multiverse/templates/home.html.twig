@@ -7,7 +7,7 @@
     <div id="main">
         {% if page.header.images|length > 0 %}
         {% for image in page.header.images %}
-        <div class="thumb {{ image.designation|raw }}">
+        <div class="thumb {{ image.designation|raw }}"  >
             <a href="{{ page.media[image.thumbnail].url }}" class="image">
                 <img src="{{ page.media[image.thumbnail].url }}" title="{{ image.title|escape }}" />
             </a>
@@ -22,3 +22,9 @@
 
 </div>
 {% endblock %}
+
+{# for horizontal images #}
+{# {{ page.media[image.thumbnail].cropZoom(200, 100).html(image.title) | raw }} #}
+
+{# for vertical images #}
+{# {{ page.media[image.thumbnail].cropZoom(100, 200).html(image.title) | raw }} #}

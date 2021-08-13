@@ -50,7 +50,7 @@
 			left: 0;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			// width: 100%;
 		}
 
 		> h2 {
@@ -83,7 +83,7 @@
 		position: absolute;
 		top: 0;
 		visibility: hidden;
-		width: 100%;
+		// width: 100%;
 		z-index: 1;
 
 		body.ie & {
