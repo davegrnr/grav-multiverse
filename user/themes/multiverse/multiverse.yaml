@@ -1,0 +1,33 @@
+enabled: true
+about_label: About
+about_header: 'Welcome!'
+about_content: 'Welcome to my website!'
+copyright: '&copy; My Name'
+social_networks:
+  -
+    icon: fa-twitter
+    label: Twitter
+    url: 'https://www.twitter.com/'
+  -
+    icon: fa-facebook
+    label: Facebook
+    url: 'https://www.facebook.com/'
+  -
+    icon: fa-instagram
+    label: Instagram
+    url: 'https://www.instagram.com/'
+  -
+    icon: fa-github
+    label: GitHub
+    url: 'https://www.github.com/'
+  -
+    icon: fa-dribbble
+    label: Dribbble
+    url: 'https://www.dribbble.com/'
+  -
+    icon: fa-linkedin
+    label: LinkedIn
+    url: 'https://www.linkedin.com/'
+contact_header: 'Get in touch'
+social_header: 'Follow me on ...'
+favicon: favicon.png
